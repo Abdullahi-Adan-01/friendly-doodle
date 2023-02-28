@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 69px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24px;
+    background-color: black;
+
+}
+
+/* start of content styling */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar>img {
+    height: 50px;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+    list-style: none;
+
+}
+
+.navbar a {
+    color: gray;
+
+}
+
+/* start of hero section */
+.hero {
+    margin: 2rem;
+    height: 700px;
+    background-image: url(/images/img-mission-background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.info {
+    background-color: black;
+    opacity: 0.8;
+
+
+}
+
+.info>* {
+    margin: 1rem 0;
+    text-align: center;
+    color: white;
+
+}
+
+/* start of content section */
+.content {
+    width: 1000px;
+    margin: 4rem auto;
+
+
+    color: white;
+
+
+}
+
+.content h2,
+h4 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.images img {
+    height: 200px;
+    width: 300px;
+    position: relative;
+
+
+}
+
+/* start of location section */
+.location {
+    height: 500px;
+    margin: 4rem 3rem;
+    background: url(/images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.location h2 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 15px;
+    color: white;
+
+}
+
+.flex {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-1,
+.flex-2,
+.flex-3 {
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 1rem 0;
+    text-align: center;
+    opacity: .8;
+
+
+}
+
+.flex-1>*,
+.flex-2>*,
+.flex-3>* {
+    padding: 10px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* end of location section */
+
+
+/* start of footer */
+.end-1 {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.end-1>* {
+    padding: 10px 0;
+    opacity: 0.9;
+}
+
+.end-2 {
+    margin-left: 20px;
+    color: white;
+    text-align: left;
+
+}
+
+.end-2>* {
+    font-size: 15px;
+    opacity: 0.8;
+}
